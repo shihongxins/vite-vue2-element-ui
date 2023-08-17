@@ -56,7 +56,19 @@ export default defineConfig({
 ```shell
 ### 开发
 npm run dev
+```
+![开发时截图](./dev.png)
 
+```shell
 ### 打包并预览问题
 npm run build && npm run preview
 ```
+![预览截图](./buildThenPreview.png)
+
+<style>
+  img {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+</style>
